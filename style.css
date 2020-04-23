@@ -259,6 +259,31 @@ list-style-type: circle;
 
 }
 
+.project-titles{
+  margin-top: 2rem;
+}
+
+.force-left{
+  float: left;
+}
+
+.program-skill{
+  margin-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  border-radius: 5px;
+}
+
+.project-program{
+  background-color: #ff846b;
+}
+
+.project-skills{
+  background-color: #91caff;
+}
+
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
     padding: 1rem;
