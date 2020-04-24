@@ -291,13 +291,11 @@ list-style-type: circle;
   height: auto;
 }
 
-.container video{
+iframe{
   padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.break1 {
-  margin-top: 5rem;
-}
 
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
