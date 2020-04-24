@@ -273,16 +273,15 @@ list-style-type: circle;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
   border-radius: 5px;
+  background-color: #ff846b;
+
 }
 
 .project-program{
-  background-color: #ff846b;
 }
 
 .project-skills{
-  background-color: #91caff;
 }
 
 .column img {
@@ -294,6 +293,10 @@ list-style-type: circle;
 
 .container video{
   padding-top: 1rem;
+}
+
+.break1 {
+  margin-top: 5rem;
 }
 
 /*--- Bootstrap Padding Fix --*/
@@ -317,5 +320,3 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { ... }
 */
-
-
