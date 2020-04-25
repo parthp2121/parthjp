@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Box Flipper</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link href="style.css" rel="stylesheet">
+	</head>
+
+
+	<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"> Parth Patel </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarResponsive">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" onclick="window.open('resume.pdf','_blank')">Resume</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!--- Projects Header -->
+		<div class="projects projects-fluid text-center" id="projects">
+			<h2 class="majorheading"> Box Flipper</h2>
+		</div>
+
+
+	<div class="container">
+		<h5 class="project-titles"> Project Goal </h5>
+		<hr>
+		<p> Design a flipping mechanism to flip every second box coming on a conveyor and integrate a PLC to automate the tasks. </p>
+		<h5 class="project-titles"> Project Overview </h5>
+		<hr>
+		<p> The team and I designed a flipping mechanism which flipped every other box 90 degrees two times to achieve the 180 degree rotation requirement. Splitting the task into two smaller tasks allowed the final design to be simpler, more efficient, and more versatile. Our design was only of the only designs that could be implemented on existing conveyor systems without modifying the conveyor. We also developed the Ladder Logic to automate the process.</p>
+		<h5 class="project-titles"> My Reponsibilities </h5>
+		<hr>
+		<p> <b> Design Lead </b> </p>
+		<ul class="work-description">
+			<li>Created the CAD model of the flipping mechanism using box tubing and sheetmetal parts. </li>
+			<li>The final design was made with <b> Design for Manufacturing </b> and <b> Design for Assembly</b> in mind. </li>
+		</ul>
+		<div class="programandskills">
+			<h5 class="project-titles" > Programs and Skills </h5>
+			<hr>
+			<div class="row container">
+				<p class="program-skill force-left">3D CAD - NX Siemens</p>
+				<p class="program-skill force-left">Motion Simulation - NX Siemens</p>
+				<p class="program-skill force-left">PLC Ladder Logic</p>
+			</div>
+		</div>
+		<h5 class="project-titles" > Project Pictures </h5>
+		<hr>
+		<div class="container">
+			<div class="row justify-content-md-center">
+	  		<div class="column col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+	    		<img src="img/flipper/finaldesign.png">
+					<img src="img/flipper/topview.png">
+				</div>
+	  		<div class="column col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<img src="img/flipper/raisedflipper.png">
+					<img src="img/flipper/droppedflipper.png">
+	  		</div>
+	  		<div class="column col-xs-6 col-sm-6 col-md-4 col-lg-4 col-xl-4">
+					<img src="img/flipper/retractedstopper.png">
+					<img src="img/flipper/extendedstopper.png">
+				</div>
+			</div>
+			<h5 class="project-titles" > Project Video </h5>
+			<hr>
+			<div class="text-center">
+				<iframe width="80%" height="500" src="https://www.youtube.com/embed/PWcUQ2c0tCI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="80%" height="500" src="https://www.youtube.com/embed/XNFDrTleyfI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<iframe width="80%" height="500" src="https://www.youtube.com/embed/ZqdYJX0M0NU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	</body>
+</html>
+
+	<!--
+	<div class="container text-center">
+		<video width="80%" controls>
+			<source src="img/maze/obstacle.mp4" type="video/mp4">
+			<source src="mov_bbb.ogg" type="video/ogg">
+			Your browser does not support HTML5 video.
+		</video>
+		<p> Obstacle Removal Simulation </p>
+	</div>
+	>
