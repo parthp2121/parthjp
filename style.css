@@ -192,6 +192,11 @@ figure {
   height: auto;
 }
 
+.up4{
+  max-width: 36%;
+  height: auto;
+}
+
 .ep0{
   max-width: 80%;
   height: auto;
@@ -212,15 +217,6 @@ figure {
   height: auto;
 }
 
-.ep4{
-  max-width: 30%;
-  height: auto;
-}
-
-.ep5{
-  max-width: 49%;
-  height: auto;
-}
 .work-place{
   font-weight: normal;
   font-size: 18;
@@ -238,7 +234,11 @@ figure {
 }
 
 .work-description{
-list-style-type: circle;
+list-style-type: disc;
+}
+
+.design-features{
+  list-style-type: disc;
 }
 
 .button-resume     {
@@ -302,6 +302,7 @@ list-style-type: circle;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
   border-radius: 5px;
   background-color: #ff846b;
 
