@@ -24,7 +24,6 @@ figure {
   margin: 0!important;
 }
 
-
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
   position: absolute;
@@ -43,9 +42,17 @@ figure {
   font-size: 1.1rem;
 }
 
+.introsub{
+  padding: 25px;
+  height:100%;
+}
+
+.changingText{
+  color: red;
+}
+
 .welcome-title{
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 10px;
   font-size: 3.5rem;
 }
 
@@ -53,6 +60,26 @@ figure {
   min-height: 4rem;
   background: #5c5c5c; //5c5c5c
 }
+
+.introsec {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(63, 127, 191, 0.5));
+}
+
+.projectsec {
+}
+
+.experiencesec{
+}
+
+.certificatesec{
+}
+
+.contactsec{
+}
+
+
+
+
 
 .majorheading{
   padding-top: 0.75rem;
@@ -65,10 +92,11 @@ figure {
 .projects-subheading{
   font-family: arial;
   font-size: 2rem;
+  font-style: oblique;
 }
 
 .uni-logo {
-  max-width: 60%;
+  max-width: 80%;
   height: auto;
   padding-top: 1rem;
   padding-bottom: 0.5rem;
@@ -85,6 +113,16 @@ figure {
   box-shadow: 10px 15px 5px #ccc;
   margin-left: auto;
   margin-right: auto;
+}
+
+.uniprojects{
+  padding: 1em;
+}
+
+.c2{
+  max-width: 5rem;
+  border-width: 0.25rem;
+  border-color: blue;
 }
 
 .pbox {
@@ -213,7 +251,7 @@ figure {
 }
 
 .ep3{
-  max-width: 32%;
+  max-width: 36%;
   height: auto;
 }
 
@@ -241,7 +279,23 @@ list-style-type: disc;
   list-style-type: disc;
 }
 
-.button-resume     {
+
+.button-projects  {
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 1.25rem;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: lightgrey;
+  color: black;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+
+.button-contacts  {
   padding: 16px 32px;
   text-align: center;
   display: inline-block;
@@ -258,7 +312,7 @@ list-style-type: disc;
   border: 2px solid black;
 }
 
-.button-resume:hover {
+.button-contacts:hover {
   background-color: #555555;
   color: white;
   box-shadow: 5px 5px #ccc;
@@ -267,6 +321,7 @@ list-style-type: disc;
 .button-projects:hover{
   background-color: #4CAF50;
   color: white;
+  box-shadow: 5px 5px #ccc;
 }
 
 .c1{
@@ -290,7 +345,12 @@ list-style-type: disc;
 }
 
 .project-titles{
+  font-size: 2rem;
   margin-top: 2rem;
+}
+
+p, .work-description, .design-features {
+  font-size: 1.25rem;
 }
 
 .force-left{
@@ -304,10 +364,18 @@ list-style-type: disc;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   border-radius: 5px;
-  background-color: #ff846b;
-
+  background-color: red;
 }
 
+p.program-skill{
+  color: white;
+  font-weight: bold;
+}
+
+.centered
+{
+    text-align:center;
+}
 
 .column img {
   margin-top: 8px;
@@ -320,7 +388,6 @@ iframe{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-
 
 /*--- Bootstrap Padding Fix --*/
 [class*="col-"] {
